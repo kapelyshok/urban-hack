@@ -1,5 +1,6 @@
 body{
     overflow: hidden;
+    background-image: url(images/fon_reg.jpg);
 }
 
 #main{
@@ -15,4 +16,25 @@ body{
     border: 1px solid red;
     width: 20%;
     height: 35%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#bt1{
+
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    height: 30%;
+}
+#bt2{
+    position: absolute;
+    top: 60%;
+    width: 80%;
+    height: 30%;
+}
+
+.bt{
+    font-size:2em;
 }

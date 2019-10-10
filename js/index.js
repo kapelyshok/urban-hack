@@ -1,16 +1,16 @@
 let bt1=document.getElementById('bt1');
 let bt2=document.getElementById('bt2');
 let used=1;
-/*bt1.onclick=function()
-{
-	//$("body > *").animate({width:'100px'},3000);
-	
-}
-bt2.onclick=function()
-{
-	$("body > *").animate({width:'0px',fontSize:"0px",height:"0px"},2000);
-	$("#bt2").hide();
-}*/
+
+let bt_reg=document.getElementById('registration');
+
+//registration.onclick=function(){
+	$('#registration').on('click', function() { window.location = 'file:///D:/urban-hack/registration.html'; });
+//}
+
+
+
+
 let av=[2,3];
 function random(min, max) {
  return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -23,6 +23,7 @@ function timeout(){
 	v='images/photo'+znach+'.jpg';
 	bt2.src=v;
 	av.push(used);used=znach;
+
 }
 
 function my_function(){

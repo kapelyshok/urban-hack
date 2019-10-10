@@ -1,36 +1,38 @@
 let bt1=document.getElementById('bt1');
 let bt2=document.getElementById('bt2');
 let used=1;
-/*bt1.onclick=function()
-{
-	//$("body > *").animate({width:'100px'},3000);
-	
-}
-bt2.onclick=function()
-{
-	$("body > *").animate({width:'0px',fontSize:"0px",height:"0px"},2000);
-	$("#bt2").hide();
-}*/
+
+let bt_reg=document.getElementById('registration');
+
+//registration.onclick=function(){
+	$('#registration').on('click', function() { window.location = 'registration.html'; });
+//}
+
+
+
+
 let av=[2,3];
 function random(min, max) {
  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function timeout(){
-	let v=random(0,av.length-1);
-	let znach=av[v];
-	av.splice(v,1);
-	v='images/photo'+znach+'.jpg';
+function timeout(v){
 	bt2.src=v;
-	av.push(used);used=znach;
 }
 
 function my_function(){
 	$("#bt2").fadeToggle({duration:2000});
-	setTimeout(function(){timeout()},2000);
+	let v=random(0,av.length-1);
+	let znach=av[v];
+	av.splice(v,1);
+	v='images/photo'+znach+'.jpg';
+	document.body.style.backgroundImage='url(\''+v+'\''+')';av.push(used);used=znach;
+	setTimeout(function(){timeout(v)},2000);
 	$("#bt2").fadeToggle({duration:2000});
 }
 setInterval(function(){my_function()},5000);
+
+
 
 document.getElementById('for_leisure').style.fontSize = $(window).height() * 0.05+'px';
 document.getElementById('free').style.fontSize = $(window).height() * 0.05+'px';

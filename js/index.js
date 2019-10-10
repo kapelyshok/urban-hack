@@ -17,7 +17,7 @@ function random(min, max) {
 }
 
 function timeout(v){
-	bt2.src=v;$("#bt2").show();
+	bt2.src=v;
 }
 
 function my_function(){
@@ -28,7 +28,7 @@ function my_function(){
 	v='images/photo'+znach+'.jpg';
 	document.body.style.backgroundImage='url(\''+v+'\''+')';av.push(used);used=znach;
 	setTimeout(function(){timeout(v)},2000);
-
+	$("#bt2").fadeToggle({duration:2000});
 }
 setInterval(function(){my_function()},5000);
 

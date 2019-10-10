@@ -33,9 +33,18 @@ function my_function(){
 setInterval(function(){my_function()},5000);
 
 document.getElementById('for_leisure').style.fontSize = $(window).height() * 0.05+'px';
+document.getElementById('free').style.fontSize = $(window).height() * 0.05+'px';
+document.getElementById('enter').style.fontSize = $(window).height() * 0.05+'px';
+document.getElementById('registr').style.fontSize = $(window).height() * 0.05+'px';
 
 window.onresize = function() {
 	var w = $(window).width();
 	var h = $(window).height();
-	document.getElementById('for_leisure').style.fontSize = h * 0.05+'px';
+document.getElementById('for_leisure').style.fontSize = h * 0.05+'px';
+	document.getElementById('free').style.fontSize = h * 0.05+'px';
+	document.getElementById('enter').style.fontSize = $(window).height() * 0.05+'px';
+	document.getElementById('registr').style.fontSize = $(window).height() * 0.05+'px';
 }
+
+
+

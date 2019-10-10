@@ -1,13 +1,19 @@
 body{
 	
 }
+#logotip{
+	width: 7%;
+	height: 7%;
+}
+#free{
+	position: absolute;
 
+}
 
 
 .img_main{
 	width:40%;
 	height:20%;
-
 	outline: 0; 
 	cursor: default;
 }

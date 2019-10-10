@@ -5,7 +5,7 @@ let used=1;
 let bt_reg=document.getElementById('registration');
 
 //registration.onclick=function(){
-	$('#registration').on('click', function() { window.location = 'file:///D:/urban-hack/registration.html'; });
+	$('#registration').on('click', function() { window.location = 'registration.html'; });
 //}
 
 

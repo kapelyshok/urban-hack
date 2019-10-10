@@ -20,7 +20,7 @@ function timeout(){
 	let v=random(0,av.length-1);
 	let znach=av[v];
 	av.splice(v,1);
-	v='photo'+znach+'.jpg';
+	v='images/photo'+znach+'.jpg';
 	bt2.src=v;
 	av.push(used);used=znach;
 }

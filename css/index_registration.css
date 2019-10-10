@@ -1,0 +1,52 @@
+body{
+    overflow: hidden;
+    background-image: url(../images/fon_reg.jpg);
+    background-size: 100%;
+}
+
+#main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#div1{
+    width: 20%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: white;
+    border-radius: 7%;
+}
+
+#bt1{
+
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 20%;
+}
+#bt2{
+    position: absolute;
+    top: 55%;
+    width: 80%;
+    height: 20%;
+}
+
+.bt{
+    font-size:1.3em;
+
+    cursor: pointer;
+    background: black ;
+    color: white;
+    border: none;
+    outline: 0;
+}
+
+.bt:hover{
+    background: #F5B041     ;
+}

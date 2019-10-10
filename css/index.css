@@ -1,5 +1,5 @@
 body{
-	
+
 }
 #logotip{
 	width: 7%;
@@ -10,6 +10,17 @@ body{
 	position: absolute;
 	top: 3%;
 	left: 80%;
+}
+#reg{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 1%;
+	right: 2%;
+	width: 7%;
+	height: 7%;
+	border: 1px solid red;
 }
 
 #enter{
@@ -52,16 +63,16 @@ body{
 
 
 .img_main{
-   width: 100%;
-	outline: 0; 
+	width: 100%;
+	outline: 0;
 	cursor: default;
 }
 #main_pic{
-     display: flex;
+	display: flex;
 	position: absolute;
-	 width: 100%;
-	 height: 89.5%;
-	 justify-content: center;
+	width: 100%;
+	height: 89.5%;
+	justify-content: center;
 }
 
 body{
@@ -165,3 +176,7 @@ body{
 .menu__item:hover {
 	background-color: #CFD8DC;
 }
+#registration{
+	width: 90%;
+	height: 40%;
+	cursor: pointer;

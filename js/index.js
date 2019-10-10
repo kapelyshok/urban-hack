@@ -34,11 +34,6 @@ setInterval(function(){my_function()},5000);
 
 
 
-
-
-
-
-
 document.getElementById('for_leisure').style.fontSize = $(window).height() * 0.05+'px';
 document.getElementById('free').style.fontSize = $(window).height() * 0.05+'px';
 document.getElementById('enter').style.fontSize = $(window).height() * 0.05+'px';

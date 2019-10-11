@@ -18,7 +18,7 @@ function random(min, max) {
 
 
 
-
+$('#logotip').on('click', function() { window.location = 'index.html'; });
 
 
 

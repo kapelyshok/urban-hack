@@ -17,7 +17,6 @@ body{
 }
 
 
-
 nav {
     /*margin: 100px 0;*/
     position: relative;
@@ -45,9 +44,9 @@ nav ul li {
 /* стилизуем ссылки */
 nav a {
     display:block;
-    padding:0 8px;
+    padding: 0 8px;
     color:#000000;
-    width: 120px;
+    width: 200px;
     text-align: center;
     font-size:25px;
     line-height: 60px;
@@ -56,6 +55,7 @@ nav a {
 
 /* изменяем цвет фона при наведении курсора */
 nav a:hover {
+    padding: 4.5px;
     background-color: rgba(0,0,0,0.5);
     color: white;
 }
@@ -81,6 +81,8 @@ nav ul ul li {
     display:list-item;
     position: relative;
 }
+
+
 
 /*.lab:hover{
     text-decoration: underline;

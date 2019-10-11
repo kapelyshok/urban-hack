@@ -7,6 +7,7 @@ body{
 	width: 7%;
 	height: 7%;
 	border-radius: 10%;
+	cursor: pointer;
 }
 
 #registr{
@@ -64,6 +65,8 @@ body{
 nav {
 	/*margin: 100px 0;*/
 	background-color: rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 1;
 }
 
 /* убираем отступы и поля, а также list-style для "ul",

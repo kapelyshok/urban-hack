@@ -9,15 +9,17 @@ let bt_reg=document.getElementById('registration');
 //}
 
 
+let podkladka=document.getElementById('podkladka');
 
-
-let av=[2,3];
+let av=[2,3,4];
 function random(min, max) {
  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function timeout(v){
 	bt2.src=v;
+	$("#bt2").fadeToggle({duration:10});
+	console.log('zaraz')
 }
 
 function my_function(){
@@ -26,11 +28,15 @@ function my_function(){
 	let znach=av[v];
 	av.splice(v,1);
 	v='images/fon'+znach+'.png';
-	document.body.style.backgroundImage='url(\''+v+'\''+')';av.push(used);used=znach;
+	podkladka.src=v;
+	av.push(used);used=znach;
 	setTimeout(function(){timeout(v)},2000);
-	$("#bt2").fadeToggle({duration:2000});
+
+
 }
-setInterval(function(){my_function()},5000);
+
+
+setInterval(function(){my_function()},6000);
 
 
 

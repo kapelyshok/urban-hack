@@ -5,60 +5,24 @@
  <link href="css/index.css" rel="stylesheet">
  <title>JS</title>
 </head>
-
 <body>
 <nav>
-
  <ul>
-  <li><img src="images/logotip.png" id="logotip" style="height: 95px; width: 133px;opacity: 1; "></li>
-   <li style="margin-left: 5%;"><a href="#">Гуртки</a>
-    <ul>
-     <li><a href="#">Музика</a></li>
-     <li><a href="#">Освіта</a></li>
-     <li><a href="#">Мистецтво</a></li>
-     <li><a href="#">Спорт</a></li>
-     <li><a href="#">Хореографія</a></li>
-    </ul>
-   </li>
-   <li style="margin-left: 15px"><a href="#">Безкоштовні гуртки</a></li>
-   <li style="margin-left: 60%"><a href="#">Реєстрація</a></li>
-   <li style="margin-left: 15px"><a href="#">Вхід</a></li>
+  <li style="margin-left: 10%;margin-top: 1.5%; width: 200px;"><a href="#" style="width: 200px; background-color: white; padding-left:4px; padding-right:4px; color: black">Гуртки</a>
+   <ul>
+    <li><a href="#" style="width: 200px;">Музика</a></li>
+    <li><a href="#" style="width: 200px;">Освіта</a></li>
+    <li><a href="#" style="width: 200px;">Мистецтво</a></li>
+    <li><a href="#" style="width: 200px;">Спорт</a></li>
+    <li><a href="#" style="width: 200px;">Хореографія</a></li>
+   </ul>
+  </li>
+  <li style="margin-left: 20px"><a href="#" style="width: 250px; color: white">Безкоштовні гуртки</a></li>
+  <li style="margin-left: 49%"><a href="#" style="color: white">Реєстрація</a></li>
+  <li style="margin-left: 15px"><a href="#" style="color: white">Вхід</a></li>
  </ul>
 </nav>
-
-<div>
-<div style="display: flex;justify-content: center">  <b style="font-size: 50px;">Волейбол "Новатор"</b></div>
- <div style="display: flex; justify-content: center;"
- <div style="width: 90%; display: flex;">
-  <img src="images/photo2.jpg" alt="" style="margin-top: 1%; margin-left: 0.5%; display: inline; margin-left: -10%;">
-  <pre style="display: inline; font-size: 30px;font-family:sans-serif;">
-   Категорія: спорт
-   Місце розташування: вул.Тернопільська
-   Керівник: Михайло Туртура
-   Контактний телефон: 0968241284
-   Вікова категорія: 9-19
-   Вільні місця: 20
-   Ціна за заняття: 100 грн.
-  </pre>
- </div>
- </div>
-<div >
- <div style="display: flex; justify-content: center; margin-top: 20px; margin-left: -74%;"><b style="font-size: 30px;">Відгуки:</b>
- </div>
- <form action="#" style="margin-left: 10%; margin-top: 2%;  font-size: 20px; width: 600px; height: 200px; margin-bottom: 15%; border: 1px solid silver;">
-  <label style="width: 120px;"><b>Залишити відгук</b> </label>
-  <br>
-  <label>Email:</label>
-  <br>
-  <input type="email">
-  <br>
-  <label>Коментар:</label>
-  <br>
-  <textarea cols="50" rows="6" style="resize: none;"></textarea>
- </form>
-</div>
-</div>
-
+<img src="images/logotip.png" id="logotip" style="height: 95px; width: 133px;opacity: 1;position: absolute; top: 1.15%; left: 5px; z-index: 1;">
 <!--<img src="images/for_leisure.png" id="img_for_leisure">-->
 
 <!--<div id="free"> Безкоштовні гуртки</div>-->
@@ -69,7 +33,30 @@
 
 <!-- <input type=button id='bt1' class="button"> -->
 
-<!--<div id='main_pic'><input type=image src='images/fon1.png' id='bt2' class="img_main"></div>-->
+<div id="reg"> <input type="button" id="registration" value="Реєстрація">  </div>
+<input type=button id='bt1' class="button">
+<div id='main_pic1'><input type=image src='images/fon1.png' id='podkladka' class="img_main1"></div>
+<div id='main_pic'><input type=image src='images/fon1.png' id='bt2' class="img_main"></div>
+
+<div style="display: flex;position: absolute;top: 80%;width: 100%;justify-content: center;">
+<div id="main_relative_bottom">
+<span style="background-color: white; color: black; z-index: 1; position: absolute; font-size: 35px;"><b>Обери гурток, відповідно до</b></span>
+<div class="button-parent">
+ <div class="button-parent--inner">
+  <div class="button-item" style="display: inline;">
+   <a href="select.php?sel=time" class="btn-2" style="font-weight:900;">Вільного часу</a>
+  </div>
+  <div class="button-item" style="display: inline;">
+   <a href="select.php?sel=place" class="btn-2" style="font-weight:900;">Місця знаходження</a>
+  </div>
+ </div>
+</div>
+
+
+</div>
+</div>
+
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+ <script type="text/javascript" src="js/index.js" defer></script>
 </body>
 </html>

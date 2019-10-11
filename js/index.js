@@ -5,7 +5,7 @@ let registration_button=document.getElementById('registration_button');
 let bt_reg=document.getElementById('registration');
 
 //registration.onclick=function(){
-	$('#registration_button').on('click', function() { window.location = 'registration.html'; });
+	$('#registration').on('click', function() { window.location = 'registration.html'; });
 //}
 
 

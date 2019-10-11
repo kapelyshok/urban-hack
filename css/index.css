@@ -1,9 +1,12 @@
 body{
-	
+
+	margin: 0;
+	padding: 0;
 }
 #logotip{
 	width: 7%;
 	height: 7%;
+	border-radius: 10%;
 }
 
 #registr{
@@ -12,16 +15,51 @@ body{
 	left: 80%;
 }
 
-
-
-
-body{
-
-	margin: 0;
-	padding: 0;
+#enter{
+	position: absolute;
+	top: 3%;
+	left: 90%;
 }
 
 
+
+.img_main{
+	 width: 100%;
+	 outline: 0;
+	 cursor: default;
+	 background-size: 100%;
+	 background-position: center;
+	 background-repeat: no-repeat;
+ }
+.img_main1{
+	width: 100%;
+	outline: 0;
+	cursor: default;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#main_pic{
+     display: flex;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#main_pic1{
+	display: flex;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
 
 nav {
 	/*margin: 100px 0;*/
@@ -39,14 +77,7 @@ nav ul {
 
 /* применяем inline-block позиционирование к элементам навигации */
 nav ul li {
-	margin:
-
-
-
-
-
-
-			0px -7px 0 0;
+	margin: 0px -6px 0 0;
 	display:inline-block;
 
 }
@@ -54,9 +85,9 @@ nav ul li {
 /* стилизуем ссылки */
 nav a {
 	display:block;
-	padding:0 10px;
+	padding:0 8px;
 	color:#FFF;
-	font-size:20px;
+	font-size: 25px;
 	line-height: 60px;
 	text-decoration:none;
 }

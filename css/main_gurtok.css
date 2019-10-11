@@ -54,8 +54,13 @@ nav a {
 }
 
 /* изменяем цвет фона при наведении курсора */
+nav ul>li>ul>li>a:hover {
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
 nav a:hover {
-    padding: 4.5px;
     background-color: rgba(0,0,0,0.5);
     color: white;
 }
@@ -81,7 +86,6 @@ nav ul ul li {
     display:list-item;
     position: relative;
 }
-
 
 
 /*.lab:hover{

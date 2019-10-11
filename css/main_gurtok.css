@@ -1,87 +1,74 @@
-body{
-	
-}
 #logotip{
-	width: 7%;
-	height: 7%;
+    width: 7%;
+    height: 7%;
 }
 
 #registr{
-	position: absolute;
-	top: 3%;
-	left: 80%;
+    position: absolute;
+    top: 3%;
+    left: 80%;
 }
 
-
-
-
 body{
-
-	margin: 0;
-	padding: 0;
+    background-image: url('../images/fonn.png');
+    margin: 0;
+    padding: 0;
 }
 
 
 
 nav {
-	/*margin: 100px 0;*/
-	background-color: rgba(0, 0, 0, 0.3);
+    /*margin: 100px 0;*/
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* убираем отступы и поля, а также list-style для "ul",
  * и добавляем "position:relative" */
 nav ul {
-	padding:0;
-	margin:0;
-	list-style: none;
-	position: relative;
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
 }
 
 /* применяем inline-block позиционирование к элементам навигации */
 nav ul li {
-	margin:
-
-
-
-
-
-
-			0px -7px 0 0;
-	display:inline-block;
+    margin: 0px -7px 0 0;
+    display:inline-block;
 
 }
 
 /* стилизуем ссылки */
 nav a {
-	display:block;
-	padding:0 10px;
-	color:#FFF;
-	font-size:20px;
-	line-height: 60px;
-	text-decoration:none;
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
 }
 
 /* изменяем цвет фона при наведении курсора */
 nav a:hover {
-	background-color: #000000;
+    background-color: #000000;
 }
 /* скрываем выпадающие списки по умолчанию
 			 * и задаем абсолютное позиционирование */
 nav ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
 }
 
 /* отображаем выпадающий список при наведении */
 nav ul li:hover > ul {
-	display:inherit;
+    display:inherit;
 }
 
 /* первый уровень выпадающего списка */
 nav ul ul li {
-	min-width:170px;
-	float:none;
-	display:list-item;
-	position: relative;
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
 }

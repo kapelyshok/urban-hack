@@ -43,7 +43,9 @@ nav ul li {
 nav a {
     display:block;
     padding:0 8px;
-    color:#FFF;
+    color:#000000;
+    width: 120px;
+    text-align: center;
     font-size:25px;
     line-height: 60px;
     text-decoration:none;
@@ -51,13 +53,16 @@ nav a {
 
 /* изменяем цвет фона при наведении курсора */
 nav a:hover {
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
 }
 /* скрываем выпадающие списки по умолчанию
 			 * и задаем абсолютное позиционирование */
 nav ul ul {
     display: none;
     position: absolute;
+    color: black;
+    background: white;
     top: 100%;
 }
 

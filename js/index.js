@@ -34,8 +34,6 @@ function my_function(){
 
 
 }
-
-
 setInterval(function(){my_function()},6000);
 
 

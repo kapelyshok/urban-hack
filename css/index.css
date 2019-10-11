@@ -63,61 +63,67 @@ body{
 }
 
 nav {
-	/*margin: 100px 0;*/
-	background-color: rgba(0, 0, 0, 0.3);
-	position: relative;
-	z-index: 1;
+    /*margin: 100px 0;*/
+    position: relative;
+    z-index: 1;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* убираем отступы и поля, а также list-style для "ul",
  * и добавляем "position:relative" */
 nav ul {
-	padding:0;
-	margin:0;
-	list-style: none;
-	position: relative;
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
 }
 
 /* применяем inline-block позиционирование к элементам навигации */
 nav ul li {
-	margin: 0px -6px 0 0;
-	display:inline-block;
+    margin: 0px -7px 0 0;
+    display:inline-block;
 
 }
 
 /* стилизуем ссылки */
 nav a {
-	display:block;
-	padding:0 7px;
-	color:#FFF;
-	font-size: 23px;
-	line-height: 60px;
-	text-decoration:none;
+    display:block;
+    padding:0 8px;
+    color:#000000;
+    width: 120px;
+    text-align: center;
+    font-size:25px;
+    line-height: 60px;
+    text-decoration:none;
 }
 
 /* изменяем цвет фона при наведении курсора */
 nav a:hover {
-	background-color: #000000;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
 }
 /* скрываем выпадающие списки по умолчанию
 			 * и задаем абсолютное позиционирование */
 nav ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
+    display: none;
+    position: absolute;
+    color: black;
+    background: white;
+    top: 100%;
 }
 
 /* отображаем выпадающий список при наведении */
 nav ul li:hover > ul {
-	display:inherit;
+    display:inherit;
 }
 
 /* первый уровень выпадающего списка */
 nav ul ul li {
-	min-width:170px;
-	float:none;
-	display:list-item;
-	position: relative;
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");

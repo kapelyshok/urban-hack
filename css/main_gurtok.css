@@ -42,9 +42,9 @@ nav ul li {
 /* стилизуем ссылки */
 nav a {
     display:block;
-    padding:0 10px;
+    padding:0 8px;
     color:#FFF;
-    font-size:20px;
+    font-size:25px;
     line-height: 60px;
     text-decoration:none;
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <link href="css/main_gurtok.css" rel="stylesheet">
+    <title>JS</title>
+</head>
+
+<body>
+<nav>
+
+    <ul>
+        <li style="margin-left: 10%;margin-top: 1.5%; width: 200px;"><a href="#" style="width: 200px; background-color: white; padding-left:5px; padding-right:4px; color: black">Гуртки</a>
+            <ul>
+                <li><a href="#" >Музика</a></li>
+                <li><a href="#" >Освіта</a></li>
+                <li><a href="#" >Мистецтво</a></li>
+                <li><a href="list_gurtkiv.html">Спорт</a></li>
+                <li><a href="#" >Хореографія</a></li>
+            </ul>
+        </li>
+        <li style="margin-left: 20px"><a href="free_gur.html" style="width: 250px; color: white">Безкоштовні гуртки</a></li>
+        <li style="margin-left: 35%"><a href="registration.html" style="color: white">Реєстрація</a></li>
+        <li style="margin-left: 15px"><a href="#" style="color: white">Вхід</a></li>
+    </ul>
+</nav>
+<img src="images/logotip.png" id="logotip" style="height: 95px; width: 133px;opacity: 1;position: absolute; top: 1.15%; left: 5px; z-index: 1;">
+
+<div id="relative_div" style="height: 85%;position: absolute;width: 100%;display: flex;justify-content: space-around;align-items: center;">
+    <div style="height: 80%;width: 25%;margin-left: 20px;display: flex;justify-content: center;flex-direction: column;align-items: center;">
+        <label style="font-size: 2.5em;color:white;font-weight: bold;" for="box"; class="lab";>Тайский бокс - Муей Тай</label>
+        <input type="image" src="images/box.jpg" style="width: 100%;height: 60%;" id="box";>
+        <label style="font-size: 2em;color:white;font-weight: bold;" for="box"; class="lab";>Місце знаходження:<br></label>
+        <label style="font-size: 2em;color:white;font-weight: bold;" for="box"; class="lab";>Інститутська, 5</label>
+    </div>
+    <div style="height: 80%;width: 25%;margin-left: 20px;display: flex;justify-content: center;flex-direction: column;align-items: center;">
+        <label style="font-size: 2.3em;color:white;font-weight: bold;" for="volle"; class="lab1";>Волейбольний клуб Новатор</label>
+        <input type="image" src="images/volleyball.jpg" style="width: 100%;height: 60%;" id="volle";>
+        <label style="font-size: 2em;color:white;font-weight: bold;" for="volle"; class="lab1";>Місце знаходження:</label>
+        <label style="font-size: 2em;color:white;font-weight: bold;" for="volle"; class="lab1";>Спорт. комплекс Новатор</label>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/list_gurt.js" defer></script>
+</body>
+</html>

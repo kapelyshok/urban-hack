@@ -135,7 +135,7 @@ body {
 .button-parent {
 	max-width: 1100px;
 	z-index: 1;
-	margin: auto;
+
 	text-align: center;
 }
 .button-parent--inner {
@@ -188,4 +188,20 @@ a {
 	left: 0;
 	right: 0;
 	z-index: -1;
+}
+
+
+.btn-1 {
+	background-color: black;
+	color: white;
+	padding: 1em 3em;
+	/*border: 3px solid #4A90E2;*/
+	transition: all 300ms ease;
+	box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-1:hover {
+	color: black;
+	background-color: white;
+	box-shadow: none;
 }

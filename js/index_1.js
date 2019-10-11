@@ -6,6 +6,7 @@ let bt_reg=document.getElementById('registration');
 
 //registration.onclick=function(){
 	$('#registration_button').on('click', function() { window.location = 'registration.html'; });
+    $('#search').on('click', function() { window.location = 'main_gur.html'; });
 //}
 
 
